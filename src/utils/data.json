@@ -1,0 +1,143 @@
+[
+  {
+    "id": 0,
+    "name": "Alfa Romeo",
+    "slug": "alfa-romeo",
+    "model": {
+      "147": [
+        {
+          "id": 0,
+          "dateStart": "2001",
+          "dateEnd": "2005",
+          "motor": [
+            {
+              "id": 0,
+              "type": "essence",
+              "name": "2.0 TS",
+              "base": 150,
+              "baseC": 172,
+              "s1": {
+                "baseP": 165,
+                "baseC": 122,
+                "prix": 460
+              }
+            },
+            {
+              "id": 1,
+              "type": "essence",
+              "name": "3.2 V6 GTA",
+              "base": 250
+            },
+            {
+              "id": 2,
+              "type": "diesel",
+              "name": "1.9 Jtd",
+              "base": 100
+            },
+            {
+              "id": 3,
+              "type": "diesel",
+              "name": "1.9 Jtd",
+              "base": 115
+            },
+            {
+              "id": 4,
+              "type": "diesel",
+              "name": "1.9 Jtd",
+              "base": 136
+            },
+            {
+              "id": 5,
+              "type": "diesel",
+              "name": "1.9 Jtd",
+              "base": 140
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "dateStart": "2005",
+          "dateEnd": "...",
+          "motor": [
+            {
+              "id": 0,
+              "type": "essence",
+              "name": "2.0 TS",
+              "base": 150
+            },
+            {
+              "id": 1,
+              "type": "essence",
+              "name": "3.2 V6 GTA",
+              "baseP": 250
+            },
+            {
+              "id": 2,
+              "type": "diesel",
+              "name": "1.9 Jtd",
+              "base": 100
+            },
+            {
+              "id": 3,
+              "type": "diesel",
+              "name": "1.9 Jtd",
+              "base": 115
+            },
+            {
+              "id": 4,
+              "type": "diesel",
+              "name": "1.9 Jtd",
+              "base": 126
+            },
+            {
+              "id": 5,
+              "type": "diesel",
+              "name": "1.9 Jtd",
+              "base": 136
+            },
+            {
+              "id": 6,
+              "type": "diesel",
+              "name": "1.9 Jtd",
+              "base": 140
+            },
+            {
+              "id": 7,
+              "type": "diesel",
+              "name": "1.9 Jtd",
+              "base": 150
+            },
+            {
+              "id": 8,
+              "type": "diesel",
+              "name": "1.9 Jtd",
+              "base": 170
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "name": "Audi",
+    "slug": "audi",
+    "model": {
+      "E-Tron": [
+        {
+          "id": 0,
+          "dateStart": "2020",
+          "dateEnd": "...",
+          "motor": [
+            {
+              "id": 0,
+              "type": "electrique",
+              "name": "E-Tron S",
+              "base": 503
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

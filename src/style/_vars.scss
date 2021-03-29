@@ -1,0 +1,30 @@
+:root {
+  --lightCream: #fefcf7;
+  --lightBlue: #3399ff;
+}
+
+@mixin text($font, $line: $font, $ls: normal) {
+  font-size: $font;
+  line-height: $line;
+  letter-spacing: $ls;
+}
+@mixin pX($left: 0, $right: $left) {
+  padding-left: $left;
+  padding-right: $right;
+}
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin grid1R($gap: 0) {
+  display: grid;
+  grid-auto-flow: column;
+  gap: $gap;
+}
+@mixin grid1C($gap: 0) {
+  display: grid;
+  grid-auto-flow: row;
+  gap: $gap;
+}
