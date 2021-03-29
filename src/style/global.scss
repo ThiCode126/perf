@@ -3,7 +3,10 @@
 }
 
 body {
-  background: var(--lightCream);
+  background: var(--lightGrey);
+  font-family: "Fraunces", serif;
+  padding-top: 84px;
+
   .content-wrapper {
     width: 327px;
     margin: 0 auto;
@@ -11,6 +14,10 @@ body {
 
   a {
     text-decoration: none;
+  }
+
+  section {
+    margin-top: 80px;
   }
 }
 

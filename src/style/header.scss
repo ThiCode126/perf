@@ -1,4 +1,12 @@
 header {
+  background: var(--lightCream);
+  border-bottom: 2px solid var(--lightBlue);
+  box-shadow: 0 3px 15px 1px #00000025;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
   .in-header {
     display: flex;
     justify-content: space-between;
