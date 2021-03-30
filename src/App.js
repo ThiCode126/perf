@@ -4,6 +4,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Footer from "./component/Footer";
 import Header from "./component/Header";
 import Home from "./component/Home";
 
@@ -16,6 +17,7 @@ function App() {
           <Home />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }
