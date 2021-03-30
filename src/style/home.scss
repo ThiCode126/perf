@@ -4,5 +4,42 @@
       width: 327px;
       height: 251px;
     }
+
+    .home-txt {
+      @include flexCenter;
+      flex-flow: column;
+    }
+  }
+}
+
+/**
+* ? Tablet
+*/
+@media (min-width: 768px) {
+  .hero {
+    .in-hero {
+      display: flex;
+      flex-flow: row-reverse;
+
+      .card-draw {
+        width: 344px;
+        height: 264px;
+        padding-left: 24px;
+      }
+    }
+  }
+}
+/**
+* ? DeskTop
+*/
+@media (min-width: 1440px) {
+  .hero {
+    .in-hero {
+      .card-draw {
+        width: 720px;
+        height: 552px;
+        padding-left: 24px;
+      }
+    }
   }
 }

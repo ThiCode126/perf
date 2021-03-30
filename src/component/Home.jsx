@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -10,9 +11,12 @@ const Home = () => {
             className="card-draw"
             alt="card-draw"
           />
-          <div>
+          <div className="home-txt">
             <h1>Car Performance</h1>
             <p>Leader de la reprogrammation automobile</p>
+            <Link to="/car">
+              <button className="button">Sélectionner votre véhicule</button>
+            </Link>
           </div>
         </div>
       </div>
